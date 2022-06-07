@@ -1,0 +1,18 @@
+<!--10119277-Muhamad Marsa-IF7-->
+<resources>
+    <string name="app_name">UTS_10119277</string>
+    <string name="profile">Profile</string>
+    <string name="note">Notes</string>
+    <string name="info">Info</string>
+    <string name="nim">NIM: 10119277</string>
+    <string name="nama">Nama: Muhamad Marsa</string>
+    <string name="kelas">Kelas: IF7</string>
+    <string name="email">Email: muhamadmarsa19@gmail.com</string>
+    <string name="txt_welcome">UTS AKB </string>
+    <string name="txt_intro">UNIKOM 2022</string>
+    <string name="page1">Page 1 of 2</string>
+    <string name="page2">Page 2 of 2</string>
+    <string name="memo">Selamat Datang</string>
+    <string name="penjelasan">  Pergi ke halaman Notes dan kilik + untuk membuat memo</string>
+    <string name="txt_add">Add Notes</string>
+</resources>
