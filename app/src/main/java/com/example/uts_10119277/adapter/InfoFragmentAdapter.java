@@ -1,5 +1,5 @@
 package com.example.uts_10119277.adapter;
-//10119277-Muhamad Marsa-IF7
+
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;

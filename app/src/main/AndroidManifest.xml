@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--10119277-Muhamad Marsa-IF7-->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.uts_10119277">
 
@@ -10,9 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.UTS_10119277">
-        <activity android:name=".view.activity.AddNoteActivity"></activity>
+        <activity
+            android:name=".view.activity.RegisterActivity"
+            android:exported="false"
+            android:label="Register"/>
+        <activity
+            android:name=".view.activity.LoginActivity"
+            android:exported="false"
+            android:label="Login"/>
+        <activity android:name=".view.activity.AddNoteActivity" />
         <activity android:name=".view.activity.MainActivity" />
-        <activity android:name=".view.activity.SplashActivity"
+        <activity
+            android:name=".view.activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

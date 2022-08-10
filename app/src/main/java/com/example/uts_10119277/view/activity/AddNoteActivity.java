@@ -1,5 +1,5 @@
 package com.example.uts_10119277.view.activity;
-//10119277-Muhamad Marsa-IF7
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

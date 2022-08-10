@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
+import com.example.uts_10119277.view.fragment.LogoutFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.example.uts_10119277.R;
 import com.example.uts_10119277.view.fragment.NoteFragment;
@@ -47,6 +48,10 @@ public class MainActivity extends AppCompatActivity {
                     case
                             R.id.profile:
                         fragment = new ProfileFragment();
+                        break;
+                    case
+                            R.id.logout:
+                        fragment = new LogoutFragment();
                         break;
                 }
                 return getFragmentPage(fragment);
